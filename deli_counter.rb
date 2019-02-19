@@ -7,6 +7,7 @@ else
   new_array = []
   array.each do |name|
     new_array.push("#{n}. #{name}")
+    n += 1
   end
   puts "The line is currently: #{new_array}"
 end
