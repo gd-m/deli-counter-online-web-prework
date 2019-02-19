@@ -11,4 +11,3 @@ else
   end
   puts "The line is currently: #{new_array}"
 end
-end
