@@ -9,6 +9,6 @@ else
     new_array.push("#{n}. #{name}")
     n += 1
   end
-  puts "The line is currently: #{new_array}"
+  print "The line is currently: #{new_array}"
 end
 end
