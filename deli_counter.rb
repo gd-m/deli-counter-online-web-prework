@@ -12,3 +12,9 @@ else
   puts "The line is currently: #{new_array}"
 end
 end
+
+def take_a_number(array,name)
+  array.push(name)
+  index_of_name = array.index(name)
+  return "Welcome, #{name}. You are number #{index_of_name} in line."  
+end
