@@ -16,5 +16,5 @@ end
 def take_a_number(array,name)
   array.push(name)
   index_of_name = array.index(name)
-  return "Welcome, #{name}. You are number #{index_of_name} in line."
+  return "Welcome, #{name}. You are number #{index_of_name + 1} in line."
 end
