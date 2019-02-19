@@ -9,7 +9,7 @@ else
     new_array.push("#{n}. #{name}")
     n += 1
   end
-  puts "The line is currently: #{new_array}"
+  puts "The line is currently: #{new_array.join(" ")}"
 end
 end
 
